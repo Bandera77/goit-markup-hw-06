@@ -365,7 +365,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .social-link {
@@ -463,6 +463,10 @@ ul {
   color: var(--white-bg-color);
 }
 
+.social-box > .social-list {
+  gap: 16px;
+}
+
 .social-footer-link {
   display: flex;
   width: 40px;
@@ -537,9 +541,9 @@ ul {
   padding: 8px 24px;
 
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.5;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 
   border: transparent;
   border-radius: 4px;
@@ -634,7 +638,7 @@ ul {
 .modal-text {
   text-align: center;
 
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 
   font-weight: 500;
   line-height: 1.5;
